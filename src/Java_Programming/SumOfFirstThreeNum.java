@@ -12,7 +12,7 @@ public class SumOfFirstThreeNum {
         String str = Integer.toString(num);
         for (int i=0; i<3; i++){
             char ch = str.charAt(i);
-            sum=sum+(int)(ch-48);
+            sum=sum+(ch-48);
         }
         System.out.println(sum);
     }
