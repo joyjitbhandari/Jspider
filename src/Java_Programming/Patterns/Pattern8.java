@@ -11,7 +11,7 @@ public class Pattern8 {
             }
             System.out.println();
         }
-        for(int i=1; i<=5; i++){
+        for(int i=1; i<=4; i++){
             for(int j =5; j>=1; j--){
                 if(i>=j){
                     System.out.print("*");
